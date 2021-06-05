@@ -1,0 +1,15 @@
+0.4
+2016.2
+C:/Users/HP Useer/Desktop/Lab6_JtypeDatapath_Naylor_Ojeda/Lab6_J-Type/Lab6_J-Type.sim/sim_1/behav/glbl.v,1464879896,verilog,,,,,,,,,,,
+C:/Users/HP Useer/Desktop/Lab6_JtypeDatapath_Naylor_Ojeda/Lab6_J-Type/Lab6_J-Type.srcs/sim_1/imports/new/Datapath_tb.v,1619023255,verilog,,,,,,,,,,,
+C:/Users/HP Useer/Desktop/Lab6_JtypeDatapath_Naylor_Ojeda/Lab6_J-Type/Lab6_J-Type.srcs/sources_1/imports/sources_1/imports/Downloads/DataMem.v,1617219715,verilog,,,,,,,,,,,
+C:/Users/HP Useer/Desktop/Lab6_JtypeDatapath_Naylor_Ojeda/Lab6_J-Type/Lab6_J-Type.srcs/sources_1/imports/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v,1615068245,verilog,,,,,,,,,,,
+C:/Users/HP Useer/Desktop/Lab6_JtypeDatapath_Naylor_Ojeda/Lab6_J-Type/Lab6_J-Type.srcs/sources_1/imports/sources_1/imports/sources_1/imports/Downloads/regfile32.v,1615072543,verilog,,,,,,,,,,,
+C:/Users/HP Useer/Desktop/Lab6_JtypeDatapath_Naylor_Ojeda/Lab6_J-Type/Lab6_J-Type.srcs/sources_1/imports/sources_1/imports/sources_1/imports/new/ALU.v,1615857499,verilog,,,,,,,,,,,
+C:/Users/HP Useer/Desktop/Lab6_JtypeDatapath_Naylor_Ojeda/Lab6_J-Type/Lab6_J-Type.srcs/sources_1/imports/sources_1/imports/sources_1/new/Datapath.v,1618852548,verilog,,,,,,,,,,,
+C:/Users/HP Useer/Desktop/Lab6_JtypeDatapath_Naylor_Ojeda/Lab6_J-Type/Lab6_J-Type.srcs/sources_1/imports/sources_1/imports/sources_1/new/PC.v,1617231445,verilog,,,,,,,,,,,
+C:/Users/HP Useer/Desktop/Lab6_JtypeDatapath_Naylor_Ojeda/Lab6_J-Type/Lab6_J-Type.srcs/sources_1/imports/sources_1/imports/sources_1/new/PCADD.v,1615855393,verilog,,,,,,,,,,,
+C:/Users/HP Useer/Desktop/Lab6_JtypeDatapath_Naylor_Ojeda/Lab6_J-Type/Lab6_J-Type.srcs/sources_1/imports/sources_1/imports/sources_1/new/control.v,1619456855,verilog,,,,,,,,,,,
+C:/Users/HP Useer/Desktop/Lab6_JtypeDatapath_Naylor_Ojeda/Lab6_J-Type/Lab6_J-Type.srcs/sources_1/imports/sources_1/new/BranchSrc.v,1617653191,verilog,,,,,,,,,,,
+C:/Users/HP Useer/Desktop/Lab6_JtypeDatapath_Naylor_Ojeda/Lab6_J-Type/Lab6_J-Type.srcs/sources_1/imports/sources_1/new/PCADD1.v,1617671375,verilog,,,,,,,,,,,
+C:/Users/HP Useer/Desktop/Lab6_JtypeDatapath_Naylor_Ojeda/Lab6_J-Type/Lab6_J-Type.srcs/sources_1/imports/sources_1/new/SignExtension.v,1617226694,verilog,,,,,,,,,,,

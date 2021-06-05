@@ -1,0 +1,110 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Feb 24 09:40:07 2021
+# Process ID: 11228
+# Current directory: C:/Users/HP Useer/Desktop/Lab3_ALU_Naylor_Ojeda/ALU_Lab3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6964 C:\Users\HP Useer\Desktop\Lab3_ALU_Naylor_Ojeda\ALU_Lab3\ALU_Lab3.xpr
+# Log file: C:/Users/HP Useer/Desktop/Lab3_ALU_Naylor_Ojeda/ALU_Lab3/vivado.log
+# Journal file: C:/Users/HP Useer/Desktop/Lab3_ALU_Naylor_Ojeda/ALU_Lab3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/HP Useer/Desktop/Lab3_ALU_Naylor_Ojeda/ALU_Lab3/ALU_Lab3.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/HP Useer/Desktop/Lab2_Naylor_Ojeda/ALU_Lab3' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 762.457 ; gain = 94.668
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'ALU_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/HP Useer/Desktop/Lab3_ALU_Naylor_Ojeda/ALU_Lab3/ALU_Lab3.sim/sim_1/behav'
+"xvlog -m64 --relax -prj ALU_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP Useer/Desktop/Lab3_ALU_Naylor_Ojeda/ALU_Lab3/ALU_Lab3.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP Useer/Desktop/Lab3_ALU_Naylor_Ojeda/ALU_Lab3/ALU_Lab3.srcs/sim_1/new/ALU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_tb
+INFO: [VRFC 10-2458] undeclared symbol N, assumed default net type wire [C:/Users/HP Useer/Desktop/Lab3_ALU_Naylor_Ojeda/ALU_Lab3/ALU_Lab3.srcs/sim_1/new/ALU_tb.v:31]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP Useer/Desktop/Lab3_ALU_Naylor_Ojeda/ALU_Lab3/ALU_Lab3.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 789.777 ; gain = 10.355
+INFO: [USF-XSim-69] 'compile' step finished in '6' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/HP Useer/Desktop/Lab3_ALU_Naylor_Ojeda/ALU_Lab3/ALU_Lab3.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 66960c2635994d23b40e3ba96d2a2841 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ALU_tb_behav xil_defaultlib.ALU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.ALU_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ALU_tb_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/HP -notrace
+invalid command name "2019:03:13"
+    while executing
+"2019:03:13 10:51:10:910 Could not recognize operation: U!"
+    (file "C:/Users/HP" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Wed Feb 24 10:07:23 2021...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:17 . Memory (MB): peak = 789.777 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '17' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/HP Useer/Desktop/Lab3_ALU_Naylor_Ojeda/ALU_Lab3/ALU_Lab3.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_tb_behav -key {Behavioral:sim_1:Functional:ALU_tb} -tclbatch {ALU_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source ALU_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+A=f0f03c3c B=bf0ff5f5 ALUctrl=0000 || ALUout=b0003434 N=1 C=x Z=0 V=x
+A=f0f03c3c B=bf0ff5f5 ALUctrl=0001 || ALUout=fffffdfd N=1 C=x Z=0 V=x
+A=f0f03c3c B=bf0ff5f5 ALUctrl=0011 || ALUout=4fffc9c9 N=0 C=x Z=0 V=x
+A=00000001 B=ffffffff ALUctrl=0010 || ALUout=00000000 N=0 C=1 Z=1 V=1
+A=6389754f B=ad5624e6 ALUctrl=0010 || ALUout=10df9a35 N=0 C=1 Z=0 V=1
+A=00000001 B=ffffffff ALUctrl=0010 || ALUout=00000000 N=0 C=1 Z=1 V=1
+A=6389754f B=ad5624e6 ALUctrl=0010 || ALUout=10df9a35 N=0 C=1 Z=0 V=1
+A=ffffffff B=ffffffff ALUctrl=0010 || ALUout=fffffffe N=0 C=1 Z=0 V=1
+A=00000000 B=00000001 ALUctrl=0110 || ALUout=ffffffff N=0 C=1 Z=0 V=1
+A=f9684783 B=f998d562 ALUctrl=0110 || ALUout=ffcf7221 N=0 C=1 Z=0 V=1
+A=f0f03c3c B=bf0ff5f5 ALUctrl=1100 || ALUout=00000202 N=0 C=x Z=0 V=x
+A=89bcde34 B=c53bd687 ALUctrl=0111 || ALUout=764321cb N=0 C=x Z=0 V=x
+A=f0f03c3c B=bf0ff5f5 ALUctrl=1101 || ALUout=e1e07878 N=1 C=x Z=0 V=x
+A=f0f03c3c B=bf0ff5f5 ALUctrl=1111 || ALUout=xxxxxxxx N=x C=x Z=x V=x
+A=f0f03c3c B=bf0ff5f5 ALUctrl=1010 || ALUout=b0003231 N=1 C=1 Z=0 V=0
+A=f0f03c3c B=bf0ff5f5 ALUctrl=1110 || ALUout=31e04647 N=0 C=0 Z=0 V=0
+$finish called at time : 80 ns : File "C:/Users/HP Useer/Desktop/Lab3_ALU_Naylor_Ojeda/ALU_Lab3/ALU_Lab3.srcs/sim_1/new/ALU_tb.v" Line 82
+xsim: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 789.777 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:30 . Memory (MB): peak = 789.777 ; gain = 10.355
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Feb 24 10:09:34 2021...

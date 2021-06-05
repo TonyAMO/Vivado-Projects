@@ -1,0 +1,35 @@
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+t= 230.0 ns rf[0]: 00000000
+t= 250.0 ns rf[1]: 00000000
+t= 270.0 ns rf[2]: 00000000
+t= 290.0 ns rf[3]: 00000000
+t= 310.0 ns rf[4]: 00000000
+t= 330.0 ns rf[5]: 00000000
+t= 350.0 ns rf[6]: 00000000
+t= 370.0 ns rf[7]: 00000000
+t= 390.0 ns rf[8]: 00000015
+t= 410.0 ns rf[9]: 00000017
+t= 430.0 ns rf[10]: 0000000c
+t= 450.0 ns rf[11]: fffffff0
+t= 470.0 ns rf[12]: 0000000f
+t= 490.0 ns rf[13]: 0000001f
+t= 510.0 ns rf[14]: 0000000f
+t= 530.0 ns rf[15]: 00000010
+t= 550.0 ns rf[16]: ffffffff
+t= 570.0 ns rf[17]: ffffffff
+t= 590.0 ns rf[18]: 00000001
+t= 610.0 ns rf[19]: 00000001
+t= 630.0 ns rf[20]: 00000015
+t= 650.0 ns rf[21]: 00000016
+t= 670.0 ns rf[22]: 00000017
+t= 690.0 ns rf[23]: 00000018
+t= 710.0 ns rf[24]: 00000019
+t= 730.0 ns rf[25]: 0000001a
+t= 750.0 ns rf[26]: 00000000
+t= 770.0 ns rf[27]: 00000000
+t= 790.0 ns rf[28]: 00000000
+t= 810.0 ns rf[29]: 00000000
+t= 830.0 ns rf[30]: 00000000
+t= 850.0 ns rf[31]: 00000000
+$finish called at time : 850 ns : File "C:/Users/HP Useer/Desktop/Lab4_Naylor_Ojeda/Lab4_Datapath/Lab4_Datapath.srcs/sim_1/new/Datapath_tb.v" Line 32

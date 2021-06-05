@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="add_sub_4bit_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="add_sub_4bit_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="85315615fs"></ZoomEndTime>
+      <Cursor1Time time="80000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/add_sub_4bit_tb/A_tb" type="array">
+      <obj_property name="ElementShortName">A_tb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">A_tb[3:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/add_sub_4bit_tb/B_tb" type="array">
+      <obj_property name="ElementShortName">B_tb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">B_tb[3:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/add_sub_4bit_tb/add_sub_tb" type="logic">
+      <obj_property name="ElementShortName">add_sub_tb</obj_property>
+      <obj_property name="ObjectShortName">add_sub_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/add_sub_4bit_tb/S_tb" type="array">
+      <obj_property name="ElementShortName">S_tb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">S_tb[3:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/add_sub_4bit_tb/Cout_tb" type="logic">
+      <obj_property name="ElementShortName">Cout_tb</obj_property>
+      <obj_property name="ObjectShortName">Cout_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/add_sub_4bit_tb/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+</wave_config>

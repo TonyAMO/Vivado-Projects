@@ -1,0 +1,81 @@
+/*
+
+Vivado v2016.2 (64-bit)
+SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+Process ID: 1996
+
+Current time: 	3/17/21 10:41:16 AM PDT
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1600x900
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.2/tps/win64/jre
+
+User name: 	HP Useer
+User home directory: C:/Users/HP Useer
+User working directory: C:/Users/HP Useer/Desktop/Lab4_Naylor_Ojeda/Lab4_Datapath
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI Base root directory: C:/Xilinx/Vivado
+RDI Data directory: C:/Xilinx/Vivado/2016.2/data
+RDI Bin directory: C:/Xilinx/Vivado/2016.2/bin
+
+Vivado preferences path: C:/Users/HP Useer/AppData/Roaming/Xilinx/Vivado/2016.2/vivado.ini
+Vivado layouts directory: C:/Users/HP Useer/AppData/Roaming/Xilinx/Vivado/2016.2/layouts
+
+GUI allocated memory:	192 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 405 MB
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 42 MB (+41195kb) [00:00:18]
+// [Engine Memory]: 361 MB (+227473kb) [00:00:18]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bL:g (cv:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\HP Useer\Desktop\Lab4_Naylor_Ojeda\Lab4_Datapath\Lab4_Datapath.xpr. Version: Vivado v2016.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/HP Useer/Desktop/Lab4_Naylor_Ojeda/Lab4_Datapath/Lab4_Datapath.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 405 MB. GUI used memory: 27 MB. Current time: 3/17/21 10:41:18 AM PDT
+// TclEventType: FILE_SET_NEW
+// [Engine Memory]: 405 MB (+26594kb) [00:00:23]
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/HP Useer/Desktop/Lab4_Naylor_Ojeda/Lab4_Datapath/Lab4_Datapath.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/HP Useer/Desktop/Lab3_ALU_Naylor_Ojeda/Lab4_Datapath' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 461 MB (+37500kb) [00:00:36]
+// [GUI Memory]: 45 MB (+1279kb) [00:00:37]
+// [GUI Memory]: 48 MB (+1206kb) [00:00:40]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 471 MB. GUI used memory: 35 MB. Current time: 3/17/21 10:41:38 AM PDT
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 502 MB (+18511kb) [00:00:45]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: Lab4_Datapath; location: C:/Users/HP Useer/Desktop/Lab4_Naylor_Ojeda/Lab4_Datapath; part: xc7k70tfbv676-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:29 . Memory (MB): peak = 745.578 ; gain = 110.203 
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// [GUI Memory]: 52 MB (+1378kb) [00:00:53]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+closeMainWindow("Lab4_Datapath - [C:/Users/HP Useer/Desktop/Lab4_Naylor_Ojeda/Lab4_Datapath/Lab4_Datapath.xpr] - Vivado 2016.2"); // cv:JFrame
+// HOptionPane Warning: 'A background task is running. Please wait until it completes to exit vivado.<br>If you choose to abort background task and exit immediately, you will lose all unsaved<br>changes to project. (Background Task)'

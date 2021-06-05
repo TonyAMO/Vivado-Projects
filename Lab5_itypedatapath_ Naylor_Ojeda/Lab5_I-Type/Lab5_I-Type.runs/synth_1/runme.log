@@ -1,0 +1,307 @@
+
+*** Running vivado
+    with args -log Datapath.vds -m64 -mode batch -messageDb vivado.pb -notrace -source Datapath.tcl
+
+
+****** Vivado v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source Datapath.tcl -notrace
+Command: synth_design -top Datapath -part xc7k70tfbv676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 13552 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:34 . Memory (MB): peak = 272.504 ; gain = 65.699
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Datapath' [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/new/Datapath.v:23]
+INFO: [Synth 8-638] synthesizing module 'control' [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/new/control.v:23]
+INFO: [Synth 8-256] done synthesizing module 'control' (1#1) [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/new/control.v:23]
+INFO: [Synth 8-638] synthesizing module 'Instruction_Memory' [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:23]
+
+Warning: Trying to implement RAM in registers. Block RAM or DRAM implementation is not possible for one or more of the following reasons :
+	1: Unable to determine number of words or word size in RAM. 
+	2: No valid read/write found for RAM. 
+RAM dissolved into registers
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+WARNING: [Synth 8-3848] Net imem in module/entity Instruction_Memory does not have driver. [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:28]
+INFO: [Common 17-14] Message 'Synth 8-3848' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-256] done synthesizing module 'Instruction_Memory' (2#1) [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v:23]
+INFO: [Synth 8-638] synthesizing module 'regfile32' [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/regfile32.v:23]
+WARNING: [Synth 8-5788] Register regArray_reg[1] in module regfile32 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/regfile32.v:39]
+WARNING: [Synth 8-5788] Register regArray_reg[2] in module regfile32 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/regfile32.v:39]
+WARNING: [Synth 8-5788] Register regArray_reg[3] in module regfile32 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/regfile32.v:39]
+WARNING: [Synth 8-5788] Register regArray_reg[4] in module regfile32 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/regfile32.v:39]
+WARNING: [Synth 8-5788] Register regArray_reg[5] in module regfile32 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/regfile32.v:39]
+WARNING: [Synth 8-5788] Register regArray_reg[6] in module regfile32 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/regfile32.v:39]
+WARNING: [Synth 8-5788] Register regArray_reg[7] in module regfile32 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/regfile32.v:39]
+WARNING: [Synth 8-5788] Register regArray_reg[8] in module regfile32 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/regfile32.v:39]
+WARNING: [Synth 8-5788] Register regArray_reg[9] in module regfile32 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/regfile32.v:39]
+WARNING: [Synth 8-5788] Register regArray_reg[10] in module regfile32 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/regfile32.v:39]
+WARNING: [Synth 8-5788] Register regArray_reg[11] in module regfile32 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/regfile32.v:39]
+WARNING: [Synth 8-5788] Register regArray_reg[12] in module regfile32 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/regfile32.v:39]
+WARNING: [Synth 8-5788] Register regArray_reg[13] in module regfile32 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/regfile32.v:39]
+WARNING: [Synth 8-5788] Register regArray_reg[14] in module regfile32 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/regfile32.v:39]
+WARNING: [Synth 8-5788] Register regArray_reg[15] in module regfile32 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/regfile32.v:39]
+WARNING: [Synth 8-5788] Register regArray_reg[16] in module regfile32 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/regfile32.v:39]
+WARNING: [Synth 8-5788] Register regArray_reg[17] in module regfile32 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/regfile32.v:39]
+WARNING: [Synth 8-5788] Register regArray_reg[18] in module regfile32 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/regfile32.v:39]
+WARNING: [Synth 8-5788] Register regArray_reg[19] in module regfile32 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/regfile32.v:39]
+WARNING: [Synth 8-5788] Register regArray_reg[20] in module regfile32 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/regfile32.v:39]
+WARNING: [Synth 8-5788] Register regArray_reg[21] in module regfile32 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/regfile32.v:39]
+WARNING: [Synth 8-5788] Register regArray_reg[22] in module regfile32 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/regfile32.v:39]
+WARNING: [Synth 8-5788] Register regArray_reg[23] in module regfile32 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/regfile32.v:39]
+WARNING: [Synth 8-5788] Register regArray_reg[24] in module regfile32 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/regfile32.v:39]
+WARNING: [Synth 8-5788] Register regArray_reg[25] in module regfile32 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/regfile32.v:39]
+WARNING: [Synth 8-5788] Register regArray_reg[26] in module regfile32 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/regfile32.v:39]
+WARNING: [Synth 8-5788] Register regArray_reg[27] in module regfile32 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/regfile32.v:39]
+WARNING: [Synth 8-5788] Register regArray_reg[28] in module regfile32 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/regfile32.v:39]
+WARNING: [Synth 8-5788] Register regArray_reg[29] in module regfile32 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/regfile32.v:39]
+WARNING: [Synth 8-5788] Register regArray_reg[30] in module regfile32 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/regfile32.v:39]
+WARNING: [Synth 8-5788] Register regArray_reg[31] in module regfile32 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/regfile32.v:39]
+INFO: [Synth 8-256] done synthesizing module 'regfile32' (3#1) [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/regfile32.v:23]
+INFO: [Synth 8-638] synthesizing module 'PCADD' [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/new/PCADD.v:23]
+INFO: [Synth 8-256] done synthesizing module 'PCADD' (4#1) [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/new/PCADD.v:23]
+INFO: [Synth 8-638] synthesizing module 'PCADD1' [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/new/PCADD1.v:23]
+INFO: [Synth 8-256] done synthesizing module 'PCADD1' (5#1) [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/new/PCADD1.v:23]
+INFO: [Synth 8-638] synthesizing module 'BranchSrc' [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/new/BranchSrc.v:23]
+INFO: [Synth 8-256] done synthesizing module 'BranchSrc' (6#1) [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/new/BranchSrc.v:23]
+INFO: [Synth 8-638] synthesizing module 'PC' [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/new/PC.v:23]
+INFO: [Synth 8-256] done synthesizing module 'PC' (7#1) [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/new/PC.v:23]
+INFO: [Synth 8-638] synthesizing module 'ALU' [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/new/ALU.v:23]
+WARNING: [Synth 8-151] case item 4'b0111 is unreachable [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/new/ALU.v:38]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (8#1) [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/new/ALU.v:23]
+INFO: [Synth 8-638] synthesizing module 'DataMem' [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/Downloads/DataMem.v:23]
+WARNING: [Synth 8-4767] Trying to implement RAM 'dmem_reg' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+Reason is one or more of the following :
+	1: RAM has multiple writes via different ports in same process. If RAM inferencing intended, write to one port per process. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM "dmem_reg" dissolved into registers
+INFO: [Synth 8-256] done synthesizing module 'DataMem' (9#1) [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/Downloads/DataMem.v:23]
+INFO: [Synth 8-638] synthesizing module 'SignExtension' [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/new/SignExtension.v:23]
+INFO: [Synth 8-256] done synthesizing module 'SignExtension' (10#1) [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/new/SignExtension.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Datapath' (11#1) [C:/Users/HP Useer/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/new/Datapath.v:23]
+WARNING: [Synth 8-3331] design DataMem has unconnected port addr[31]
+WARNING: [Synth 8-3331] design DataMem has unconnected port addr[30]
+WARNING: [Synth 8-3331] design DataMem has unconnected port addr[29]
+WARNING: [Synth 8-3331] design DataMem has unconnected port addr[28]
+WARNING: [Synth 8-3331] design DataMem has unconnected port addr[27]
+WARNING: [Synth 8-3331] design DataMem has unconnected port addr[26]
+WARNING: [Synth 8-3331] design DataMem has unconnected port addr[25]
+WARNING: [Synth 8-3331] design DataMem has unconnected port addr[24]
+WARNING: [Synth 8-3331] design DataMem has unconnected port addr[23]
+WARNING: [Synth 8-3331] design DataMem has unconnected port addr[22]
+WARNING: [Synth 8-3331] design DataMem has unconnected port addr[21]
+WARNING: [Synth 8-3331] design DataMem has unconnected port addr[20]
+WARNING: [Synth 8-3331] design DataMem has unconnected port addr[19]
+WARNING: [Synth 8-3331] design DataMem has unconnected port addr[18]
+WARNING: [Synth 8-3331] design DataMem has unconnected port addr[17]
+WARNING: [Synth 8-3331] design DataMem has unconnected port addr[16]
+WARNING: [Synth 8-3331] design DataMem has unconnected port addr[15]
+WARNING: [Synth 8-3331] design DataMem has unconnected port addr[14]
+WARNING: [Synth 8-3331] design DataMem has unconnected port addr[13]
+WARNING: [Synth 8-3331] design DataMem has unconnected port addr[12]
+WARNING: [Synth 8-3331] design PCADD1 has unconnected port SignEx[31]
+WARNING: [Synth 8-3331] design PCADD1 has unconnected port SignEx[30]
+WARNING: [Synth 8-3331] design PCADD1 has unconnected port SignEx[29]
+WARNING: [Synth 8-3331] design PCADD1 has unconnected port SignEx[28]
+WARNING: [Synth 8-3331] design PCADD1 has unconnected port SignEx[27]
+WARNING: [Synth 8-3331] design PCADD1 has unconnected port SignEx[26]
+WARNING: [Synth 8-3331] design PCADD1 has unconnected port SignEx[25]
+WARNING: [Synth 8-3331] design PCADD1 has unconnected port SignEx[24]
+WARNING: [Synth 8-3331] design PCADD1 has unconnected port SignEx[23]
+WARNING: [Synth 8-3331] design PCADD1 has unconnected port SignEx[22]
+WARNING: [Synth 8-3331] design PCADD1 has unconnected port SignEx[21]
+WARNING: [Synth 8-3331] design PCADD1 has unconnected port SignEx[20]
+WARNING: [Synth 8-3331] design PCADD1 has unconnected port SignEx[19]
+WARNING: [Synth 8-3331] design PCADD1 has unconnected port SignEx[18]
+WARNING: [Synth 8-3331] design PCADD1 has unconnected port SignEx[17]
+WARNING: [Synth 8-3331] design PCADD1 has unconnected port SignEx[16]
+WARNING: [Synth 8-3331] design PCADD1 has unconnected port SignEx[15]
+WARNING: [Synth 8-3331] design PCADD1 has unconnected port SignEx[14]
+WARNING: [Synth 8-3331] design PCADD1 has unconnected port SignEx[13]
+WARNING: [Synth 8-3331] design PCADD1 has unconnected port SignEx[12]
+WARNING: [Synth 8-3331] design PCADD1 has unconnected port SignEx[11]
+WARNING: [Synth 8-3331] design PCADD1 has unconnected port SignEx[10]
+WARNING: [Synth 8-3331] design PCADD1 has unconnected port SignEx[9]
+WARNING: [Synth 8-3331] design PCADD1 has unconnected port SignEx[8]
+WARNING: [Synth 8-3331] design PCADD1 has unconnected port SignEx[7]
+WARNING: [Synth 8-3331] design PCADD1 has unconnected port SignEx[6]
+WARNING: [Synth 8-3331] design PCADD1 has unconnected port SignEx[5]
+WARNING: [Synth 8-3331] design PCADD1 has unconnected port SignEx[4]
+WARNING: [Synth 8-3331] design PCADD1 has unconnected port SignEx[3]
+WARNING: [Synth 8-3331] design PCADD1 has unconnected port SignEx[2]
+WARNING: [Synth 8-3331] design PCADD1 has unconnected port SignEx[1]
+WARNING: [Synth 8-3331] design Instruction_Memory has unconnected port Addr[31]
+WARNING: [Synth 8-3331] design Instruction_Memory has unconnected port Addr[30]
+WARNING: [Synth 8-3331] design Instruction_Memory has unconnected port Addr[29]
+WARNING: [Synth 8-3331] design Instruction_Memory has unconnected port Addr[28]
+WARNING: [Synth 8-3331] design Instruction_Memory has unconnected port Addr[27]
+WARNING: [Synth 8-3331] design Instruction_Memory has unconnected port Addr[26]
+WARNING: [Synth 8-3331] design Instruction_Memory has unconnected port Addr[25]
+WARNING: [Synth 8-3331] design Instruction_Memory has unconnected port Addr[24]
+WARNING: [Synth 8-3331] design Instruction_Memory has unconnected port Addr[23]
+WARNING: [Synth 8-3331] design Instruction_Memory has unconnected port Addr[22]
+WARNING: [Synth 8-3331] design Instruction_Memory has unconnected port Addr[21]
+WARNING: [Synth 8-3331] design Instruction_Memory has unconnected port Addr[20]
+WARNING: [Synth 8-3331] design Instruction_Memory has unconnected port Addr[19]
+WARNING: [Synth 8-3331] design Instruction_Memory has unconnected port Addr[18]
+WARNING: [Synth 8-3331] design Instruction_Memory has unconnected port Addr[17]
+WARNING: [Synth 8-3331] design Instruction_Memory has unconnected port Addr[16]
+WARNING: [Synth 8-3331] design Instruction_Memory has unconnected port Addr[15]
+WARNING: [Synth 8-3331] design Instruction_Memory has unconnected port Addr[14]
+WARNING: [Synth 8-3331] design Instruction_Memory has unconnected port Addr[13]
+WARNING: [Synth 8-3331] design Instruction_Memory has unconnected port Addr[12]
+WARNING: [Synth 8-3331] design Instruction_Memory has unconnected port Addr[1]
+WARNING: [Synth 8-3331] design Instruction_Memory has unconnected port Addr[0]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:59 ; elapsed = 00:01:47 . Memory (MB): peak = 1120.160 ; gain = 913.355
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:01:10 ; elapsed = 00:02:11 . Memory (MB): peak = 1120.160 ; gain = 913.355
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbv676-1
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:10 ; elapsed = 00:02:11 . Memory (MB): peak = 1120.160 ; gain = 913.355
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "RegDst" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regArray_reg[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regArray_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regArray_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regArray_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regArray_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regArray_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regArray_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regArray_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regArray_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regArray_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regArray_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regArray_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regArray_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regArray_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regArray_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regArray_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regArray_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regArray_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regArray_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regArray_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regArray_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regArray_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regArray_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regArray_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regArray_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regArray_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regArray_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regArray_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regArray_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regArray_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regArray_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "regArray_reg[31]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "Z" won't be mapped to RAM because address size (32) is larger than maximum supported(25)

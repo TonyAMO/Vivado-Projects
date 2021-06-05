@@ -1,0 +1,14 @@
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+ 
+ 
+ 
+time=   5.0 ns A=0 B=0 || F1=00
+time=  10.0 ns A=0 B=0 || F1=11
+time=  15.0 ns A=0 B=1 || F1=00
+time=  20.0 ns A=0 B=1 || F1=11
+time=  25.0 ns A=1 B=0 || F1=01
+time=  30.0 ns A=1 B=0 || F1=10
+time=  35.0 ns A=1 B=1 || F1=01
+time=  40.0 ns A=1 B=1 || F1=11
+$finish called at time : 40 ns : File "C:/Users/HP Useer/Lab2_circuit1/Lab2_circuit1.srcs/sim_1/new/circuit1_tb.v" Line 39

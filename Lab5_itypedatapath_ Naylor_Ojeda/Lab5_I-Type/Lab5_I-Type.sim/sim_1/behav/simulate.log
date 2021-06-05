@@ -1,0 +1,9 @@
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+t= 630.0 ns dm[24]: 00000002
+t= 650.0 ns dm[28]: 00000000
+t= 670.0 ns dm[32]: 1234567f
+t= 690.0 ns dm[36]: 00000001
+t= 710.0 ns dm[40]: 00000000
+t= 730.0 ns dm[44]: 00000000
+$finish called at time : 730 ns : File "C:/Users/HP Useer/Desktop/Lab5_itypedatapath_ Naylor_Ojeda/Lab5_I-Type/Lab5_I-Type.srcs/sim_1/imports/new/Datapath_tb.v" Line 32

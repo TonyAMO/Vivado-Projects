@@ -1,0 +1,26 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP Useer/Desktop/Lab5_itypedatapath_ Naylor_Ojeda/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/new/BranchSrc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BranchSrc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP Useer/Desktop/Lab5_itypedatapath_ Naylor_Ojeda/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/new/PCADD1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCADD1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP Useer/Desktop/Lab5_itypedatapath_ Naylor_Ojeda/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/new/control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP Useer/Desktop/Lab5_itypedatapath_ Naylor_Ojeda/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/new/SignExtension.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignExtension
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP Useer/Desktop/Lab5_itypedatapath_ Naylor_Ojeda/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/Downloads/DataMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP Useer/Desktop/Lab5_itypedatapath_ Naylor_Ojeda/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/regfile32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP Useer/Desktop/Lab5_itypedatapath_ Naylor_Ojeda/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP Useer/Desktop/Lab5_itypedatapath_ Naylor_Ojeda/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/new/PCADD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCADD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP Useer/Desktop/Lab5_itypedatapath_ Naylor_Ojeda/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP Useer/Desktop/Lab5_itypedatapath_ Naylor_Ojeda/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instruction_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP Useer/Desktop/Lab5_itypedatapath_ Naylor_Ojeda/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/new/Datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP Useer/Desktop/Lab5_itypedatapath_ Naylor_Ojeda/Lab5_I-Type/Lab5_I-Type.srcs/sim_1/imports/new/Datapath_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Datapath_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP Useer/Desktop/Lab5_itypedatapath_ Naylor_Ojeda/Lab5_I-Type/Lab5_I-Type.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

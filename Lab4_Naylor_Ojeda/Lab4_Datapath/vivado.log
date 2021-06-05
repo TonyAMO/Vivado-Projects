@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Mar 31 12:45:05 2021
+# Process ID: 14884
+# Current directory: C:/Users/HP Useer/Desktop/Lab4_Naylor_Ojeda/Lab4_Datapath
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22480 C:\Users\HP Useer\Desktop\Lab4_Naylor_Ojeda\Lab4_Datapath\Lab4_Datapath.xpr
+# Log file: C:/Users/HP Useer/Desktop/Lab4_Naylor_Ojeda/Lab4_Datapath/vivado.log
+# Journal file: C:/Users/HP Useer/Desktop/Lab4_Naylor_Ojeda/Lab4_Datapath\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/HP Useer/Desktop/Lab4_Naylor_Ojeda/Lab4_Datapath/Lab4_Datapath.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:09 . Memory (MB): peak = 733.543 ; gain = 95.406
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 31 12:45:55 2021...

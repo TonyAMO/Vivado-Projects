@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon Feb 15 09:33:08 2021
+# Process ID: 10644
+# Current directory: C:/Users/HP Useer/Desktop/Lab2_Naylor_Ojeda
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17472 C:\Users\HP Useer\Desktop\Lab2_Naylor_Ojeda\Lab2_part2.xpr
+# Log file: C:/Users/HP Useer/Desktop/Lab2_Naylor_Ojeda/vivado.log
+# Journal file: C:/Users/HP Useer/Desktop/Lab2_Naylor_Ojeda\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/HP Useer/Desktop/Lab2_Naylor_Ojeda/Lab2_part2.xpr}
+update_compile_order -fileset sources_1

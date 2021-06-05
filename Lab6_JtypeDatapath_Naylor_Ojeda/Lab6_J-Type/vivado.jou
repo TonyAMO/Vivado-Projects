@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon Apr 26 10:00:18 2021
+# Process ID: 9320
+# Current directory: C:/Users/HP Useer/Desktop/Lab6_JtypeDatapath_Naylor_Ojeda/Lab6_J-Type
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5568 C:\Users\HP Useer\Desktop\Lab6_JtypeDatapath_Naylor_Ojeda\Lab6_J-Type\Lab6_J-Type.xpr
+# Log file: C:/Users/HP Useer/Desktop/Lab6_JtypeDatapath_Naylor_Ojeda/Lab6_J-Type/vivado.log
+# Journal file: C:/Users/HP Useer/Desktop/Lab6_JtypeDatapath_Naylor_Ojeda/Lab6_J-Type\vivado.jou
+#-----------------------------------------------------------
+start_gui
+oopen_project {C:/Users/HP Useer/Desktop/Lab6_JtypeDatapath_Naylor_Ojeda/Lab6_J-Type/Lab6_J-Type.xpr}update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+launch_simulation
+source Datapath_tb.tcl
+close_sim

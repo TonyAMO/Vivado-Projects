@@ -1,0 +1,15 @@
+0.4
+2016.2
+C:/Users/HP Useer/Desktop/Lab5_itypedatapath_ Naylor_Ojeda/Lab5_I-Type/Lab5_I-Type.sim/sim_1/behav/glbl.v,1464879896,verilog,,,,,,,,,,,
+C:/Users/HP Useer/Desktop/Lab5_itypedatapath_ Naylor_Ojeda/Lab5_I-Type/Lab5_I-Type.srcs/sim_1/imports/new/Datapath_tb.v,1617643559,verilog,,,,,,,,,,,
+C:/Users/HP Useer/Desktop/Lab5_itypedatapath_ Naylor_Ojeda/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/Downloads/DataMem.v,1617219715,verilog,,,,,,,,,,,
+C:/Users/HP Useer/Desktop/Lab5_itypedatapath_ Naylor_Ojeda/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/Instruction_Memory.v,1615068245,verilog,,,,,,,,,,,
+C:/Users/HP Useer/Desktop/Lab5_itypedatapath_ Naylor_Ojeda/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/Downloads/regfile32.v,1615072543,verilog,,,,,,,,,,,
+C:/Users/HP Useer/Desktop/Lab5_itypedatapath_ Naylor_Ojeda/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/imports/new/ALU.v,1615857499,verilog,,,,,,,,,,,
+C:/Users/HP Useer/Desktop/Lab5_itypedatapath_ Naylor_Ojeda/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/new/Datapath.v,1617653919,verilog,,,,,,,,,,,
+C:/Users/HP Useer/Desktop/Lab5_itypedatapath_ Naylor_Ojeda/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/new/PC.v,1617231445,verilog,,,,,,,,,,,
+C:/Users/HP Useer/Desktop/Lab5_itypedatapath_ Naylor_Ojeda/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/new/PCADD.v,1615855393,verilog,,,,,,,,,,,
+C:/Users/HP Useer/Desktop/Lab5_itypedatapath_ Naylor_Ojeda/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/imports/sources_1/new/control.v,1617646605,verilog,,,,,,,,,,,
+C:/Users/HP Useer/Desktop/Lab5_itypedatapath_ Naylor_Ojeda/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/new/BranchSrc.v,1617653191,verilog,,,,,,,,,,,
+C:/Users/HP Useer/Desktop/Lab5_itypedatapath_ Naylor_Ojeda/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/new/PCADD1.v,1617671375,verilog,,,,,,,,,,,
+C:/Users/HP Useer/Desktop/Lab5_itypedatapath_ Naylor_Ojeda/Lab5_I-Type/Lab5_I-Type.srcs/sources_1/new/SignExtension.v,1617226694,verilog,,,,,,,,,,,

@@ -1,0 +1,117 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon Feb 22 09:57:17 2021
+# Process ID: 8764
+# Current directory: C:/Users/HP Useer/Desktop/Lab2_Naylor_Ojeda
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16568 C:\Users\HP Useer\Desktop\Lab2_Naylor_Ojeda\Lab2_part2.xpr
+# Log file: C:/Users/HP Useer/Desktop/Lab2_Naylor_Ojeda/vivado.log
+# Journal file: C:/Users/HP Useer/Desktop/Lab2_Naylor_Ojeda\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/HP Useer/Desktop/Lab2_Naylor_Ojeda/Lab2_part2.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:10 . Memory (MB): peak = 748.090 ; gain = 111.691
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'add_sub_4bit_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/HP Useer/Desktop/Lab2_Naylor_Ojeda/Lab2_part2.sim/sim_1/behav'
+"xvlog -m64 --relax -prj add_sub_4bit_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP Useer/Downloads/FA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP Useer/Lab2_part2/Lab2_part2.srcs/sources_1/new/add_sub_4bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_sub_4bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP Useer/Lab2_part2/Lab2_part2.srcs/sim_1/new/add_sub_4bit_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_sub_4bit_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP Useer/Desktop/Lab2_Naylor_Ojeda/Lab2_part2.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/HP Useer/Desktop/Lab2_Naylor_Ojeda/Lab2_part2.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 9fa11046cbf74117845c12ab11389cb9 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot add_sub_4bit_tb_behav xil_defaultlib.add_sub_4bit_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.FA
+Compiling module xil_defaultlib.add_sub_4bit
+Compiling module xil_defaultlib.add_sub_4bit_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot add_sub_4bit_tb_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/HP -notrace
+invalid command name "2019:03:13"
+    while executing
+"2019:03:13 10:51:10:910 Could not recognize operation: U!"
+    (file "C:/Users/HP" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Mon Feb 22 09:59:10 2021...
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:20 . Memory (MB): peak = 757.020 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '20' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/HP Useer/Desktop/Lab2_Naylor_Ojeda/Lab2_part2.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "add_sub_4bit_tb_behav -key {Behavioral:sim_1:Functional:add_sub_4bit_tb} -tclbatch {add_sub_4bit_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source add_sub_4bit_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ 
+ 
+ 
+time=   5.0 ns A=0000 B=0000 add_sub=0 || Carry out=0 S=0000
+time=  10.0 ns A=0001 B=0001 add_sub=1 || Carry out=1 S=0000
+time=  15.0 ns A=0010 B=0010 add_sub=0 || Carry out=0 S=0100
+time=  20.0 ns A=0011 B=0011 add_sub=1 || Carry out=1 S=0000
+time=  25.0 ns A=0100 B=0100 add_sub=0 || Carry out=0 S=1000
+time=  30.0 ns A=0101 B=0101 add_sub=1 || Carry out=1 S=0000
+time=  35.0 ns A=0110 B=0110 add_sub=0 || Carry out=0 S=1100
+time=  40.0 ns A=0111 B=0111 add_sub=1 || Carry out=1 S=0000
+time=  45.0 ns A=1000 B=1000 add_sub=0 || Carry out=1 S=0000
+time=  50.0 ns A=1001 B=1001 add_sub=1 || Carry out=1 S=0000
+time=  55.0 ns A=1010 B=1010 add_sub=0 || Carry out=1 S=0100
+time=  60.0 ns A=1011 B=1011 add_sub=1 || Carry out=1 S=0000
+time=  65.0 ns A=1100 B=1100 add_sub=0 || Carry out=1 S=1000
+time=  70.0 ns A=1101 B=1101 add_sub=1 || Carry out=1 S=0000
+time=  75.0 ns A=1110 B=1110 add_sub=0 || Carry out=1 S=1100
+time=  80.0 ns A=1111 B=1111 add_sub=1 || Carry out=1 S=0000
+$finish called at time : 80 ns : File "C:/Users/HP Useer/Lab2_part2/Lab2_part2.srcs/sim_1/new/add_sub_4bit_tb.v" Line 46
+xsim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 757.020 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'add_sub_4bit_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:31 . Memory (MB): peak = 757.020 ; gain = 0.000
+save_wave_config {C:/Users/HP Useer/Desktop/Lab2_Naylor_Ojeda/add_sub_4bit_tb_behav.wcfg}
+add_files -fileset sim_1 -norecurse {{C:/Users/HP Useer/Desktop/Lab2_Naylor_Ojeda/add_sub_4bit_tb_behav.wcfg}}
+set_property xsim.view {{C:/Users/HP Useer/Desktop/Lab2_Naylor_Ojeda/add_sub_4bit_tb_behav.wcfg}} [get_filesets sim_1]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 786.230 ; gain = 19.172
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Feb 22 10:04:54 2021...

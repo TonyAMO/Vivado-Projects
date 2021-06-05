@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Mon Feb 22 16:33:11 2021">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="52878b54619147199a0b94a626bf31e0" type="ProjectID"/>
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="SaveFileProxyHandler" value="2" type="JavaHandler"/>
+<property name="SimulationClose" value="8" type="JavaHandler"/>
+<property name="SimulationRun" value="19" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="ALU.v, 100, 328" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 100, 351" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 141, 382" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 207, 155" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 207, 384" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 208, 384" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 208, 401" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 208, 402" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 209, 386" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 212, 110" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 214, 267" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 215, 209" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 215, 313" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 220, 312" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 228, 73" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 229, 27" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 235, 383" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 238, 246" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 253, 349" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 272, 355" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 281, 22" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 284, 76" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 319, 162" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 588, 115" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 94, 127" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 95, 268" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 95, 345" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 95, 350" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 96, 148" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 96, 211" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 96, 245" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 96, 347" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 97, 387" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 99, 348" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 1, 364" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 1008, 364" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 1020, 419" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 1021, 360" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 1022, 417" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 1023, 314" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 1024, 261" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 1024, 362" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 1025, 365" value="2" type="GuiResourceData"/>
+<property name="ALU_tb.v, 1026, 315" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 1026, 316" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 1031, 266" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 1032, 414" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 1039, 207" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 1039, 345" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 1040, 163" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 115, 117" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 118, 396" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 121, 337" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 126, 111" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 127, 266" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 130, 403" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 133, 178" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 133, 61" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 138, 267" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 141, 77" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 145, 243" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 157, 129" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 173, 166" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 175, 198" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 177, 113" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 178, 194" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 181, 150" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 226, 178" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 227, 204" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 230, 127" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 230, 234" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 233, 194" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 234, 351" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 259, 372" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 26, 433" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 27, 142" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 275, 145" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 275, 248" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 277, 195" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 277, 199" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 277, 253" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 278, 149" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 278, 297" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 278, 298" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 278, 340" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 279, 194" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 279, 197" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 279, 95" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 280, 140" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 280, 294" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 281, 244" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 281, 249" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 285, 245" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 286, 106" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 290, 397" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 291, 161" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 292, 351" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 298, 61" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 299, 194" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 306, 57" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 387, 340" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 393, 404" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 394, 198" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 396, 245" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 397, 446" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 398, 300" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 400, 244" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 402, 197" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 41, 267" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 410, 230" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 417, 41" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 43, 211" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 47, 301" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 50, 204" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 63, 351" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 632, 195" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 632, 347" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 633, 301" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 634, 148" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 634, 196" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 634, 264" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 635, 245" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 635, 254" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 636, 147" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 636, 297" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 636, 316" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 637, 194" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 637, 302" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 638, 248" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 638, 352" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 638, 96" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 639, 147" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 639, 192" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 639, 198" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 639, 248" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 658, 316" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 66, 248" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 68, 262" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 711, 194" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 714, 97" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 718, 313" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 73, 386" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 765, 318" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 778, 314" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 779, 193" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 780, 314" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 796, 312" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 817, 315, false, true, false, false, false" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 836, 194" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 846, 195" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 852, 245" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 853, 147" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 853, 211" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 854, 293" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 854, 295" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 856, 249" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 857, 142" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 858, 363" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 859, 248" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 860, 190" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 861, 193" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 861, 196" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 863, 147" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 863, 193" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 863, 296" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 865, 245" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 865, 295" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 911, 368" value="2" type="GuiResourceData"/>
+<property name="ALU_tb.v, 911, 368, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 97, 232" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 97, 281" value="1" type="GuiResourceData"/>
+<property name="ALU_tb.v, 99, 218" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CmdMsgDialog_OK, OK" value="5" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, Run Behavioral Simulation" value="18" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, ALU (ALU.v" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Syntax Error Files, ALU_tb.v], 6, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Syntax Error Files, ALU_tb.v], 6, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Syntax Error Files], 5" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 4" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 3" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Run Simulation], 11, false" value="20" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_RECENT_PROJECTS, C:/Users/HP Useer/Desktop/Lab2_Naylor_Ojeda/ALU_Lab3/ALU_Lab3.xpr, 2" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_EDIT, Edit" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_EXPORT, Export" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_FILE, File" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, Open Recent File" value="4" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, Open Recent Project" value="2" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PlanAheadTab_SHOW_FLOW_NAVIGATOR, Flow Navigator" value="1" type="GuiResourceData"/>
+<property name="RDIResource.GraphicalView_ZOOM_FIT, Waveform Viewer_zoom_fit" value="8" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 0, 193" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 2, 300" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, Untitled 2" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, ALUctrl[3:0]], 2" value="2" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="37" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="32" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

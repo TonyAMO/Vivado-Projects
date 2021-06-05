@@ -1,0 +1,19 @@
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+A=f0f03c3c B=bf0ff5f5 ALUctrl=0000 || ALUout=b0003434 N=1 C=x Z=0 V=x
+A=f0f03c3c B=bf0ff5f5 ALUctrl=0001 || ALUout=fffffdfd N=1 C=x Z=0 V=x
+A=f0f03c3c B=bf0ff5f5 ALUctrl=0011 || ALUout=4fffc9c9 N=0 C=x Z=0 V=x
+A=00000001 B=ffffffff ALUctrl=0010 || ALUout=00000000 N=0 C=1 Z=1 V=1
+A=6389754f B=ad5624e6 ALUctrl=0010 || ALUout=10df9a35 N=0 C=1 Z=0 V=1
+A=00000001 B=ffffffff ALUctrl=0010 || ALUout=00000000 N=0 C=1 Z=1 V=1
+A=6389754f B=ad5624e6 ALUctrl=0010 || ALUout=10df9a35 N=0 C=1 Z=0 V=1
+A=ffffffff B=ffffffff ALUctrl=0010 || ALUout=fffffffe N=0 C=1 Z=0 V=1
+A=00000000 B=00000001 ALUctrl=0110 || ALUout=ffffffff N=0 C=1 Z=0 V=1
+A=f9684783 B=f998d562 ALUctrl=0110 || ALUout=ffcf7221 N=0 C=1 Z=0 V=1
+A=f0f03c3c B=bf0ff5f5 ALUctrl=1100 || ALUout=00000202 N=0 C=x Z=0 V=x
+A=89bcde34 B=c53bd687 ALUctrl=0111 || ALUout=764321cb N=0 C=x Z=0 V=x
+A=f0f03c3c B=bf0ff5f5 ALUctrl=1101 || ALUout=e1e07878 N=1 C=x Z=0 V=x
+A=f0f03c3c B=bf0ff5f5 ALUctrl=1111 || ALUout=xxxxxxxx N=x C=x Z=x V=x
+A=f0f03c3c B=bf0ff5f5 ALUctrl=1010 || ALUout=b0003231 N=1 C=1 Z=0 V=0
+A=f0f03c3c B=bf0ff5f5 ALUctrl=1110 || ALUout=31e04647 N=0 C=0 Z=0 V=1
+$finish called at time : 80 ns : File "C:/Users/HP Useer/Desktop/Lab2_Naylor_Ojeda/ALU_Lab3/ALU_Lab3.srcs/sim_1/new/ALU_tb.v" Line 82

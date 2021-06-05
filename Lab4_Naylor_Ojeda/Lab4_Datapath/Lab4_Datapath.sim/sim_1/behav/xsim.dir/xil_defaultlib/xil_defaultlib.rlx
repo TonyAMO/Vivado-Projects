@@ -1,0 +1,11 @@
+0.4
+2016.2
+C:/Users/HP Useer/Desktop/Lab4_Naylor_Ojeda/Lab4_Datapath/Lab4_Datapath.sim/sim_1/behav/glbl.v,1464879896,verilog,,,,,,,,,,,
+C:/Users/HP Useer/Desktop/Lab4_Naylor_Ojeda/Lab4_Datapath/Lab4_Datapath.srcs/sim_1/new/Datapath_tb.v,1615855300,verilog,,,,,,,,,,,
+C:/Users/HP Useer/Desktop/Lab4_Naylor_Ojeda/Lab4_Datapath/Lab4_Datapath.srcs/sources_1/imports/Downloads/Instruction_Memory.v,1615068245,verilog,,,,,,,,,,,
+C:/Users/HP Useer/Desktop/Lab4_Naylor_Ojeda/Lab4_Datapath/Lab4_Datapath.srcs/sources_1/imports/Downloads/regfile32.v,1615072543,verilog,,,,,,,,,,,
+C:/Users/HP Useer/Desktop/Lab4_Naylor_Ojeda/Lab4_Datapath/Lab4_Datapath.srcs/sources_1/imports/new/ALU.v,1615857499,verilog,,,,,,,,,,,
+C:/Users/HP Useer/Desktop/Lab4_Naylor_Ojeda/Lab4_Datapath/Lab4_Datapath.srcs/sources_1/new/Datapath.v,1615935452,verilog,,,,,,,,,,,
+C:/Users/HP Useer/Desktop/Lab4_Naylor_Ojeda/Lab4_Datapath/Lab4_Datapath.srcs/sources_1/new/PC.v,1615855375,verilog,,,,,,,,,,,
+C:/Users/HP Useer/Desktop/Lab4_Naylor_Ojeda/Lab4_Datapath/Lab4_Datapath.srcs/sources_1/new/PCADD.v,1615855393,verilog,,,,,,,,,,,
+C:/Users/HP Useer/Desktop/Lab4_Naylor_Ojeda/Lab4_Datapath/Lab4_Datapath.srcs/sources_1/new/control.v,1615857488,verilog,,,,,,,,,,,
